@@ -1,0 +1,65 @@
+{
+  "n_train": 6997,
+  "n_test": 3000,
+  "vf_source": "e11",
+  "vr_properties": [
+    "E22",
+    "E33",
+    "G12",
+    "G13"
+  ],
+  "loss_mode": "additive",
+  "baseline_violations_pct": {
+    "E11": 2.7333333333333334,
+    "E22": 3.2333333333333334,
+    "E33": 2.7,
+    "G12": 0.2,
+    "G13": 0.33333333333333337,
+    "nu12": 93.06666666666666,
+    "nu13": 90.43333333333334,
+    "nu23": 100.0
+  },
+  "baseline_n_low_vf": 234,
+  "baseline_train_minutes": 73.6249496181806,
+  "config_scan": [
+    {
+      "lambda": 0.1,
+      "mean_RPE_lowVf": 3.3197681492341635,
+      "minutes": 43.80491520961126
+    },
+    {
+      "lambda": 0.2,
+      "mean_RPE_lowVf": 3.402287513538088,
+      "minutes": 43.91100468635559
+    },
+    {
+      "lambda": 0.5,
+      "mean_RPE_lowVf": 3.5174837630960356,
+      "minutes": 42.77904697656631
+    },
+    {
+      "lambda": 1.0,
+      "mean_RPE_lowVf": 3.331431332295611,
+      "minutes": 49.92255969047547
+    }
+  ],
+  "best_lambda": 0.1,
+  "physics_informed_violations_pct": {
+    "E11": 3.166666666666667,
+    "E22": 3.933333333333333,
+    "E33": 3.4333333333333336,
+    "G12": 0.36666666666666664,
+    "G13": 0.26666666666666666,
+    "nu12": 92.2,
+    "nu13": 93.53333333333333,
+    "nu23": 100.0
+  },
+  "physics_informed_n_low_vf": 234,
+  "physics_informed_train_minutes": 82.45468986431757,
+  "final_config": {
+    "lambda_vr": 0.1,
+    "lambda_hs": 0.1
+  },
+  "mean_RPE_reduction_lowVf_pct": 2.6391048391008973,
+  "mean_RPE_reduction_full_pct": 1.6765396546468962
+}

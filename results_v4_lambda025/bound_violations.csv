@@ -1,0 +1,17 @@
+model,property,violation_pct
+baseline,E11,2.7333333333333334
+baseline,E22,3.2333333333333334
+baseline,E33,2.7
+baseline,G12,0.2
+baseline,G13,0.3333333333333333
+baseline,nu12,93.06666666666666
+baseline,nu13,90.43333333333334
+baseline,nu23,100.0
+physics_informed,E11,3.6999999999999997
+physics_informed,E22,3.266666666666666
+physics_informed,E33,3.0666666666666664
+physics_informed,G12,0.3
+physics_informed,G13,0.16666666666666669
+physics_informed,nu12,91.96666666666667
+physics_informed,nu13,90.4
+physics_informed,nu23,100.0

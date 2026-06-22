@@ -1,0 +1,33 @@
+{
+  "n_train": 6997,
+  "n_test": 3000,
+  "target_space": "log",
+  "vr_properties": [
+    "mu1",
+    "mu2",
+    "mu3"
+  ],
+  "hs_properties": [
+    "mu1",
+    "mu2"
+  ],
+  "baseline_violations_wiener_pct": {
+    "mu1": 0.0,
+    "mu2": 0.03333333333333333,
+    "mu3": 0.16666666666666669
+  },
+  "baseline_n_low_vf": 348,
+  "baseline_train_minutes": 66.63806779384613,
+  "baseline_reused_from": "results_permeability",
+  "physics_informed_violations_wiener_pct": {
+    "mu1": 0.0,
+    "mu2": 0.03333333333333333,
+    "mu3": 0.06666666666666667
+  },
+  "physics_informed_n_low_vf": 348,
+  "physics_informed_train_minutes": 38.41570719877879,
+  "lambda_wiener_final": 0.25,
+  "lambda_hs_final": 0.25,
+  "mean_RPE_reduction_lowVf_pct": -3.7047417089233092,
+  "mean_RPE_reduction_full_pct": -1.9667420970185983
+}

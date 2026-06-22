@@ -1,0 +1,55 @@
+{
+  "n_train": 6997,
+  "n_test": 3000,
+  "target_space": "log",
+  "vr_properties": [
+    "mu1",
+    "mu2",
+    "mu3"
+  ],
+  "hs_properties": [
+    "mu1",
+    "mu2"
+  ],
+  "baseline_violations_wiener_pct": {
+    "mu1": 0.0,
+    "mu2": 0.03333333333333333,
+    "mu3": 0.16666666666666669
+  },
+  "baseline_n_low_vf": 348,
+  "baseline_train_minutes": 66.63806779384613,
+  "config_scan": [
+    {
+      "lambda": 0.1,
+      "mean_RPE_lowVf": 3.8200867528968048,
+      "minutes": 37.86643162965775
+    },
+    {
+      "lambda": 0.5,
+      "mean_RPE_lowVf": 3.766542143764923,
+      "minutes": 54.14200381437937
+    },
+    {
+      "lambda": 1.0,
+      "mean_RPE_lowVf": 3.886249215477072,
+      "minutes": 48.43587548335393
+    },
+    {
+      "lambda": 2.0,
+      "mean_RPE_lowVf": 3.9523892781497554,
+      "minutes": 48.949956158796944
+    }
+  ],
+  "best_lambda": 0.5,
+  "physics_informed_violations_wiener_pct": {
+    "mu1": 0.0,
+    "mu2": 0.03333333333333333,
+    "mu3": 0.13333333333333333
+  },
+  "physics_informed_n_low_vf": 348,
+  "physics_informed_train_minutes": 82.72017228603363,
+  "lambda_wiener_final": 0.5,
+  "lambda_hs_final": 0.5,
+  "mean_RPE_reduction_lowVf_pct": 0.9802339996539722,
+  "mean_RPE_reduction_full_pct": 0.39702814222094596
+}

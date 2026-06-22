@@ -1,0 +1,40 @@
+{
+  "n_train": 6997,
+  "n_test": 3000,
+  "vf_source": "e11",
+  "vr_properties": [
+    "E22",
+    "E33",
+    "G12",
+    "G13"
+  ],
+  "baseline_violations_pct": {
+    "E11": 2.7333333333333334,
+    "E22": 3.2333333333333334,
+    "E33": 2.7,
+    "G12": 0.2,
+    "G13": 0.33333333333333337,
+    "nu12": 93.06666666666666,
+    "nu13": 90.43333333333334,
+    "nu23": 100.0
+  },
+  "baseline_n_low_vf": 234,
+  "baseline_train_minutes": 73.6249496181806,
+  "baseline_reused_from": "results_v4",
+  "physics_informed_violations_pct": {
+    "E11": 3.6999999999999997,
+    "E22": 3.266666666666666,
+    "E33": 3.0666666666666664,
+    "G12": 0.3,
+    "G13": 0.16666666666666669,
+    "nu12": 91.96666666666667,
+    "nu13": 90.4,
+    "nu23": 100.0
+  },
+  "physics_informed_n_low_vf": 234,
+  "physics_informed_train_minutes": 54.418183998266855,
+  "lambda_vr_final": 0.25,
+  "lambda_hs_final": 0.25,
+  "mean_RPE_reduction_lowVf_pct": -1.8853719127099566,
+  "mean_RPE_reduction_full_pct": 0.10533630042403537
+}

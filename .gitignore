@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.log
+properties.csv
+Combined_Properties_with_FVF_updated.csv
+*/per_sample_results.csv

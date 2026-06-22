@@ -1,0 +1,7 @@
+model,property,violation_pct
+baseline,mu1,0.0
+baseline,mu2,0.03333333333333333
+baseline,mu3,0.16666666666666669
+physics_informed,mu1,0.0
+physics_informed,mu2,0.03333333333333333
+physics_informed,mu3,0.13333333333333333
